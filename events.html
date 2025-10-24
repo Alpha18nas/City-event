@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>الفعاليات | فعاليات مدينتي</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <style>
+    body {
+      font-family: "Cairo", sans-serif;
+      background-color: #f8f9fa;
+    }
+    .hero {
+      background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.5)), url('assets/img/banner.jpg') center/cover no-repeat;
+      height: 40vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+    }
+    .card {
+      border-radius: 15px;
+      transition: transform 0.2s ease;
+    }
+    .card:hover { transform: translateY(-5px); }
+    footer {
+      background-color: #212529;
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- الشريط العلوي -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">🎟️ فعاليات مدينتي</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">الرئيسية</a></li>
+        <li class="nav-item"><a class="nav-link active" href="events.html">الفعاليات</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">عن الدليل</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">اتصل بنا</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- بانر الصفحة -->
+<div class="hero">
+  <div>
+    <h1>كل الفعاليات</h1>
+    <p class="lead">استعرض جميع الفعاليات القادمة في مدينتك</p>
+  </div>
+</div>
+
+<!-- قائمة الفعاليات -->
+<div class="container mt-5 mb-5">
+  <div class="row g-4">
+
+    <!-- فعالية 1 -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="assets/img/1.jpg" class="card-img-top" alt="Event 1">
+        <div class="card-body">
+          <h5 class="card-title">مهرجان الموسيقى الصيفي</h5>
+          <p class="card-text">احتفال موسيقي يجمع فنانين محليين وعالميين.</p>
+          <p class="text-muted">📅 25 يوليو 2025 | 📍 المسرح الوطني</p>
+          <a href="event1.html" class="btn btn-primary w-100">عرض التفاصيل</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- فعالية 2 -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="assets/img/2.png" class="card-img-top" alt="Event 2">
+        <div class="card-body">
+          <h5 class="card-title">بطولة المدينة لكرة القدم</h5>
+          <p class="card-text">منافسة بين أندية المدينة في أجواء حماسية.</p>
+          <p class="text-muted">📅 10 أغسطس 2025 | 📍 ملعب العاصمة</p>
+          <a href="event2.html" class="btn btn-primary w-100">عرض التفاصيل</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- فعالية 3 -->
+    <div class="col-md-4">
+      <div class="card h-100 shadow-sm">
+        <img src="assets/img/3.jpg" class="card-img-top" alt="Event 3">
+        <div class="card-body">
+          <h5 class="card-title">معرض الفنون التشكيلية</h5>
+          <p class="card-text">عرض لأبرز أعمال الفنانين المحليين الشباب.</p>
+          <p class="text-muted">📅 3 سبتمبر 2025 | 📍 مركز المدينة الثقافي</p>
+          <a href="event3.html" class="btn btn-primary w-100">عرض التفاصيل</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- التذييل -->
+<footer>
+  <p>© 2025 دليل فعاليات المدينة | صُنع بواسطة الطلاب ashraf_284245_mouhamad_moayed_234710_lama_192877_yamen_229033 💙</p>
+</footer>
+
+</body>
+</html>
